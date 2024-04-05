@@ -20,5 +20,3 @@ function Search-Documents {
         Invoke-Item "$FullFile"
         }
 }
-
-Search-Documents -FileSearchTerm "essay"
