@@ -8,10 +8,6 @@
     recently modified file is opened.
 
 .EXAMPLE
-     # basic use
-     Search-Documents -FileSearchTerm "essay"
-
-.EXAMPLE
     # for use at the command line
     powershell -w h -NoP -NonI -Exec Bypass $ex = iwr https://raw.githubusercontent.com/SandmanV2/TriggerCMDFun/main/SearchDocuments.ps1?dl=1; $cm = -Join ($ex,'Search-Documents -FileSearchTerm "letter"'); Invoke-Expression $cm
 
