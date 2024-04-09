@@ -22,6 +22,10 @@
     Author:  Joshua Mckeever
 #>
 
+param(
+    [Parameter(Mandatory = $true)] [String] $ST
+)
+
 function Search-Documents {
     param(
         [Parameter(Mandatory = $true)] [String] $FileSearchTerm
@@ -44,3 +48,4 @@ function Search-Documents {
         Invoke-Item "$FullFile"
         }
 }
+Search-Documents -FileSearchTerm $ST
