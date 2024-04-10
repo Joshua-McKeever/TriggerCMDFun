@@ -48,4 +48,4 @@ function Search-Documents {
         Invoke-Item "$FullFile"
         }
 }
-Search-Documents -FileSearchTerm $ST
+Search-Documents -FileSearchTerm 
